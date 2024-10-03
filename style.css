@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(330, 100%, 98%);
+    width: 100vw;
+    font-family: Young Serif;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+p, li, td {
+    font-family: Outfit;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.noborder {
+    border-bottom: none;
+}
+
+td {
+    padding: 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+span {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+#container {
+    background-color: #fff;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 20px;
+    display: block;
+    margin: 50px auto;
+}
+
+#container img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: hsl(24, 5%, 18%);
+}
+
+#intro {
+    margin-bottom: 30px;
+}
+
+#intro h1 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+#prepa {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#prepa h2 {
+    color: hsl(332, 51%, 32%);
+    font-family: Outfit;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#prepa ul {
+    padding-left: 20px;
+}
+
+#ingred, #instru {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 20px;
+}
+
+#nutri p {
+    margin-bottom: 20px;
+}
+
